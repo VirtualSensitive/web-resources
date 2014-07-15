@@ -1,0 +1,51 @@
+$fa-font-path: "../fonts";
+$fa-css-prefix: "icon";
+@import "variables";
+@import "../components/fontawesome/scss/font-awesome";
+@import "../components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+html {
+    body {
+        .page-header {
+            @include clearfix();
+            #logo {
+                height: 40px;
+            }
+        }
+        .link-container {
+            .thumbnail {
+                &:hover {
+                    border: 1px solid #428BCA;
+                }
+            }
+        }
+        @media (min-width: $screen-xs) and (max-width: ($screen-sm - 1)) {
+            .link-container {
+                &:nth-child(2n+1) {
+                    clear: both;
+                }
+            }
+        }
+        @media (min-width: $screen-sm) and (max-width: ($screen-md - 1)) {
+            .link-container {
+                &:nth-child(3n+1) {
+                    clear: both;
+                }
+            }
+        }
+        @media (min-width: $screen-md) and (max-width: ($screen-lg - 1)) {
+            .link-container {
+                &:nth-child(3n+1) {
+                    clear: both;
+                }
+            }
+        }
+        @media (min-width: $screen-lg) {
+            .link-container {
+                &:nth-child(4n+1) {
+                    clear: both;
+                }
+            }
+        }
+    }
+}

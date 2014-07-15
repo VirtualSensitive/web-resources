@@ -1,0 +1,41 @@
+resources:
+    ERP:
+        logo: assets/images/open-erp.png
+        description: Entreprise Resource Planning
+        link: http://erp.virtualsensitive.com
+    Wiki:
+        logo: assets/images/wiki.png
+        description: Wiki Virtual Sensitive
+        link: http://virtualsensitive.com/wiki
+    OwnCloud:
+        logo: assets/images/owncloud.png
+        description: Partage de fichiers
+        link: http://owncloud.virtualsensitive.com
+    Messagerie:
+        logo: assets/images/gmail.png
+        description: Messagerie Gmail
+        link: http://mail.google.com
+    Configurateur V2:
+        logo: assets/images/configurateur.png
+        description: Configurateur version 2
+        link: http://client2.virtualsensitive.com
+    Configurateur V3:
+        logo: assets/images/configurateur.png
+        description: Configurateur version 3
+        link: http://client.virtualsensitive.com
+    Site web:
+        logo: assets/images/virtual-sensitive.png
+        description: Site web Virtual Sensitive
+        link: http://virtualsensitive.com/
+    Wordpress:
+        logo: assets/images/wordpress.png
+        description: Administration du site
+        link: http://virtualsensitive.com/wordpress/wp-admin
+    Espace client:
+        logo: assets/images/configurateur.png
+        description: Comptes clients
+        link: http://espaceclient.virtualsensitive.com/
+    Evenements VS:
+        logo: assets/images/eventbrite.png
+        description: Evenements Virtual Sensitive
+        link: http://virtualsensitive.eventbrite.com/

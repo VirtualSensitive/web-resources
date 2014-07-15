@@ -1,0 +1,24 @@
+{
+  "name": "virtual-sensitive-resource",
+  "version": "1.0.0",
+  "authors": [
+    "Flo-Schield-Bobby <florent.schildknecht@gmail.com>"
+  ],
+  "description": "Virtual Sensitive resources links",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git",
+    "jquery": "~2.1.1",
+    "fontawesome": "~4.1.0"
+  }
+}
